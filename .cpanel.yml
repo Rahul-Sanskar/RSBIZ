@@ -1,5 +1,18 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rsbizin/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/s5bjgx5tf9b4/public_html/rsbiz.in/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp about-us.html $DEPLOYPATH
+    - /bin/cp bulk-email.html $DEPLOYPATH
+    - /bin/cp bulk-sms.html $DEPLOYPATH
+    - /bin/cp client.html $DEPLOYPATH
+    - /bin/cp contact-us.html $DEPLOYPATH
+    - /bin/cp ivr-services.html $DEPLOYPATH
+    - /bin/cp mail.php $DEPLOYPATH
+    - /bin/cp Backup-contact-us.html $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
