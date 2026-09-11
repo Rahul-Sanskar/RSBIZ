@@ -6,7 +6,7 @@
 
 $EmailFrom = "msseolink@gmail.com";
 
-$EmailTo = "sarita.bartwal2510@gmail.com";
+$EmailTo = "info@rsbiz.in";
 
 $Subject = "Request From Website";
 
