@@ -13,13 +13,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Deploy to GoDaddy
+            - name: Deploy to GoDaddy
         uses: step-security/ftp-deploy-action@v4
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: 198.12.246.102
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
+          protocol: ftp
           port: 21
           server-dir: ./
           exclude: |
