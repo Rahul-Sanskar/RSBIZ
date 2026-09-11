@@ -15,4 +15,4 @@ deployment:
     - /bin/cp -R fonts $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH0
