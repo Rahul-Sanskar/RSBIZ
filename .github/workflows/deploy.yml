@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-            - name: Deploy to GoDaddy
+      - name: Deploy to GoDaddy
         uses: step-security/ftp-deploy-action@v4
         with:
           server: 198.12.246.102
