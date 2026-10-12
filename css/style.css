@@ -417,8 +417,8 @@ span.icon-bar{
     font-size: 48px;
     font-weight: 300;
     text-transform: uppercase;
-    margin: 80px 15px;
-    line-height: 1.15;
+    margin: 20px 15px 10px;
+    line-height: 1.2;
 }
 
 .flexcaption h1 span {
@@ -470,7 +470,7 @@ span.icon-bar{
     height:650px !important;
 }
 .sider-down{
-	top:50%;
+	top:35%;
 }
 
 
